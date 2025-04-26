@@ -4,7 +4,7 @@ import Landing from './landing'
 function App() {
 
   return (
-    <div className="bg-black text-white">
+    <div className="dark:bg-black bg-[#f2f2f2] dark:text-white text-black transition ease-in-out duration-100">
       <Landing/>
     </div> 
   )
