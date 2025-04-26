@@ -185,7 +185,7 @@ function Landing(){
             {/* Footer */}
             <hr className="border-px dark:border-white/15 border-black/45 w-full max-w-[22rem] sm:max-w-[28rem] md:max-w-[36rem] lg:max-w-[50rem] px-6 sm:px-0 mx-auto mt-8"/>
             <div className="text-center text-xs mt-[3px]">
-                <p className="py-3">made with react, tailwind & ❤️ by pratham shah</p>
+                <p className="py-3">made by pratham shah</p>
             </div>
         </div>
     )
