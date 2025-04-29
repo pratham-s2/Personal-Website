@@ -51,26 +51,26 @@ function Landing(){
                 </div>
                 <div className="sm:flex sm:flex-row grid grid-cols-2 gap-2 mt-1 mx-auto w-max">
                         <a href="mailto:p97shah@uwaterloo.ca" target="_blank" rel="noopener noreferrer">
-                            <button className="flex flex-row gap-2 items-center border border-[#2b2b2b] rounded-lg px-4 py-2 
-                            dark:hover:bg-[#2b2b2b] hover:bg-black/10 font-semibold transition duration-300 ease-in-out hover:shadow hover:translate-y-[-2px]">
+                            <button className="flex flex-row gap-2 items-center rounded-lg px-4 py-2 hover:underline 
+                            font-semibold transition duration-300 ease-in-out hover:translate-y-[-2px]">
                                 <Mail className="w-5 h-5"/>Contact
                             </button>
                         </a>
                         <a href="https://github.com/pratham-s2" target="_blank" rel="noopener noreferrer">
-                            <button className="flex flex-row gap-2 items-center border border-[#2b2b2b] rounded-lg px-4 py-2 
-                            dark:hover:bg-[#2b2b2b] hover:bg-black/10 font-semibold transition duration-300 ease-in-out hover:shadow hover:translate-y-[-2px]">
+                            <button className="flex flex-row gap-2 items-center rounded-lg px-4 py-2 hover:underline
+                            font-semibold transition duration-300 ease-in-out hover:translate-y-[-2px]">
                                 <Github className="w-5 h-5"/>GitHub
                             </button>
                         </a>
                         <a href="https://www.linkedin.com/in/prathamshah11" target="_blank" rel="noopener noreferrer">
-                            <button className="flex flex-row gap-2 items-center border border-[#2b2b2b] rounded-lg px-4 py-2 
-                            dark:hover:bg-[#2b2b2b] hover:bg-black/10 font-semibold transition duration-300 ease-in-out hover:shadow hover:translate-y-[-2px]">
+                            <button className="flex flex-row gap-2 items-center rounded-lg px-4 py-2 hover:underline
+                            font-semibold transition duration-300 ease-in-out hover:translate-y-[-2px]">
                                 <Linkedin className="w-5 h-5"/>LinkedIn
                             </button>
                         </a>
                         <a>
-                            <button className="flex flex-row gap-2 items-center border border-[#2b2b2b] rounded-lg px-4 py-2 
-                                dark:hover:bg-[#2b2b2b] hover:bg-black/10 font-semibold transition duration-300 ease-in-out hover:shadow hover:translate-y-[-2px]" title="Will be added soon.">
+                            <button className="flex flex-row gap-2 items-center hover:underline rounded-lg px-4 py-2 
+                                font-semibold transition duration-300 ease-in-out hover:translate-y-[-2px]" title="Will be added soon.">
                                 <FileText className="w-5 h-5"/>Resume
                             </button>
                         </a>
