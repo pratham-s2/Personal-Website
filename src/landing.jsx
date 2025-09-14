@@ -84,53 +84,7 @@ function Landing(){
                 </div>
 
                 <div className="pt-18 mt-26 2xl:mt-40" id="info">
-                    
-                    <div className="flex items-center gap-2 mb-6">
-                        <div className="h-px grow dark:bg-white/15 bg-black/45"></div>
-                        <h3 className="text-xl font-semibold text-pink-500">Things I've Built</h3>
-                        <div className="h-px grow dark:bg-white/15 bg-black/45"></div>
-                    </div>
-                    
-                    <div className="flex flex-col gap-5 relative">
-
-                        <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 top-14 left-[-40px]"></div>
-                        <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 top-58 right-[-40px]"></div>
-                        
-                        <ProjectCard projectName="EvenShare" link="https://github.com/pratham-s2/EvenShare"
-                        projectDescription="A group-focused expense-splitting platform enabling users to track, organize, and settle shared costs, 
-                        with real-time expense logging, group creation, clear debt breakdowns, and individual account management." 
-                        technologies={[
-                            {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
-                            {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
-                            {text: "Javascript", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"}, 
-                            {text: "Express.js", text_col: "bg-green-950/30", bg_col: "text-green-300"},
-                            {text: "MySQL", text_col: "text-pink-300", bg_col: "bg-pink-950/30"},
-                            {text: "Auth (JWT)", bg_col: "bg-orange-950/30", text_col: "text-orange-300"},
-
-                            ]}/>
-                        <ProjectCard projectName="Recipify" link="https://github.com/pratham-s2/Recipify"
-                        projectDescription="Recipe discovery platform with 50,000+ recipes, offering filterable search, 
-                        saved collections, and automated shopping lists to streamline meal planning." 
-                        technologies={[
-                            {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
-                            {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
-                            {text: "Javascript", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"},
-                            {text: "Express.js", text_col: "bg-green-950/30", bg_col: "text-green-300"},
-                            {text: "MySQL", text_col: "text-pink-300", bg_col: "bg-pink-950/30"}
-                        ]}/>
-                        
-                        <ProjectCard projectName="Personal Website" link="https://github.com/pratham-s2/Personal-Website" 
-                        projectDescription="The website you're looking at right now." 
-                        technologies={[
-                            {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
-                            {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
-                            {text: "Javascript", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"},
-                        ]}/>
-                    </div>
-                </div>
-
-                <div className="mt-11 relative">
-                    <div className="flex items-center gap-2 mb-6">
+                     <div className="flex items-center gap-2 mb-6">
                         <div className="h-px grow dark:bg-white/15 bg-black/45"></div>
                         <h3 className="text-xl font-semibold text-pink-500">Experiences</h3>
                         <div className="h-px grow dark:bg-white/15 bg-black/45"></div>
@@ -179,6 +133,53 @@ function Landing(){
                         </div>
 
                     </div>
+                   
+                </div>
+
+                <div className="mt-11 relative">
+                     <div className="flex items-center gap-2 mb-6">
+                        <div className="h-px grow dark:bg-white/15 bg-black/45"></div>
+                        <h3 className="text-xl font-semibold text-pink-500">Things I've Built</h3>
+                        <div className="h-px grow dark:bg-white/15 bg-black/45"></div>
+                    </div>
+                    
+                    <div className="flex flex-col gap-5 relative">
+
+                        <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 top-14 left-[-40px]"></div>
+                        <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 top-58 right-[-40px]"></div>
+                        
+                        <ProjectCard projectName="EvenShare" link="https://github.com/pratham-s2/EvenShare"
+                        projectDescription="A group-focused expense-splitting platform enabling users to track, organize, and settle shared costs, 
+                        with real-time expense logging, group creation, clear debt breakdowns, and individual account management." 
+                        technologies={[
+                            {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
+                            {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
+                            {text: "Javascript", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"}, 
+                            {text: "Express.js", text_col: "bg-green-950/30", bg_col: "text-green-300"},
+                            {text: "MySQL", text_col: "text-pink-300", bg_col: "bg-pink-950/30"},
+                            {text: "Auth (JWT)", bg_col: "bg-orange-950/30", text_col: "text-orange-300"},
+
+                            ]}/>
+                        <ProjectCard projectName="Recipify" link="https://github.com/pratham-s2/Recipify"
+                        projectDescription="Recipe discovery platform with 50,000+ recipes, offering filterable search, 
+                        saved collections, and automated shopping lists to streamline meal planning." 
+                        technologies={[
+                            {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
+                            {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
+                            {text: "Javascript", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"},
+                            {text: "Express.js", text_col: "bg-green-950/30", bg_col: "text-green-300"},
+                            {text: "MySQL", text_col: "text-pink-300", bg_col: "bg-pink-950/30"}
+                        ]}/>
+                        
+                        <ProjectCard projectName="Personal Website" link="https://github.com/pratham-s2/Personal-Website" 
+                        projectDescription="The website you're looking at right now." 
+                        technologies={[
+                            {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
+                            {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
+                            {text: "Javascript", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"},
+                        ]}/>
+                    </div>
+                   
                 </div>
 
 
