@@ -84,8 +84,8 @@ function Landing(){
                 </div>
 
                 <div className="pt-18 mt-26 2xl:mt-40 relative" id="info">
-                    <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 top-58 left-[-40px]"></div>
-                    <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 top-58 right-[-40px]"></div>
+                    <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-58 top-86 left-[-40px]"></div>
+                    <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-58 top-86 right-[-40px]"></div>
                      
                      <div className="flex items-center gap-2 mb-6">
                         <div className="h-px grow dark:bg-white/15 bg-black/45"></div>
@@ -148,8 +148,8 @@ function Landing(){
                     
                     <div className="flex flex-col gap-5 relative">
 
-                        <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 top-10 left-[-40px]"></div>
-                        <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 top-52 right-[-40px]"></div>
+                        <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-10 top-36 left-[-40px]"></div>
+                        <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-52 top-92 right-[-40px]"></div>
                         
                         <ProjectCard projectName="EvenShare" link="https://github.com/pratham-s2/EvenShare"
                         projectDescription="A group-focused expense-splitting platform enabling users to track, organize, and settle shared costs, 
