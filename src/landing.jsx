@@ -122,7 +122,7 @@ function Landing(){
                             <div className="text-lg font-medium">Project Management Intern</div>
                             <div className="text-sm dark:text-white/80 text-black/80 mt-1 flex flex-row items-center justify-between pr-11 gap-3"><span>Hooper Welding</span><span>Apr. 2025 - Aug. 2025</span></div>
                             <div className="text-sm dark:text-white/80 text-black/80 mt-2">Managed timelines/schedules for multiple six-figure projects, 
-                            migrated and cleaned a database of 1000+ weld procedure specifications using Pandas and VBA, directed procurement for components with total values of $200K+ while optimizing cost and maintaining timelines, and 
+                            migrated and cleaned a database of 1000+ weld procedure specifications using Pandas and VBA, directed procurement for components with total values of $200K+, and 
                             engineered a precision leveling cover valued at $100k+ under rushed deadlines.  </div>
                             <div className="mt-2 flex flex-wrap gap-1">
                                 <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">Project Scheduling</span>
