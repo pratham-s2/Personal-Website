@@ -83,7 +83,10 @@ function Landing(){
                     className="w-8 h-8 hover:w-9 hover:scale-110 transition ease-in-out duration-500"/></button>
                 </div>
 
-                <div className="pt-18 mt-26 2xl:mt-40" id="info">
+                <div className="pt-18 mt-26 2xl:mt-40 relative" id="info">
+                    <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 top-58 left-[-40px]"></div>
+                    <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 top-58 right-[-40px]"></div>
+                     
                      <div className="flex items-center gap-2 mb-6">
                         <div className="h-px grow dark:bg-white/15 bg-black/45"></div>
                         <h3 className="text-xl font-semibold text-pink-500">Experiences</h3>
@@ -145,8 +148,8 @@ function Landing(){
                     
                     <div className="flex flex-col gap-5 relative">
 
-                        <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 top-14 left-[-40px]"></div>
-                        <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 top-58 right-[-40px]"></div>
+                        <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 top-10 left-[-40px]"></div>
+                        <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 top-52 right-[-40px]"></div>
                         
                         <ProjectCard projectName="EvenShare" link="https://github.com/pratham-s2/EvenShare"
                         projectDescription="A group-focused expense-splitting platform enabling users to track, organize, and settle shared costs, 
