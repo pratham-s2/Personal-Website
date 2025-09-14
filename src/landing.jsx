@@ -41,9 +41,9 @@ function Landing(){
                     <div className="flex flex-col justify-center">
                         <p className="text-3xl mb-1">I'm <span className="font-semibold text-4xl text-pink-500">Pratham</span>.</p>
                         <p className="text-xl">Engineering @ UWaterloo</p>
-                        <p className="text-black/85 dark:text-white/85 py-1 text-lg">I'm a curious learner who enjoys building things. 
-                            My interests lie in full-stack web development and Project Management. 
-                            I like working on projects that challenge me and help me grow my skills in these fields.</p>
+                        <p className="text-black/85 dark:text-white/85 py-1 text-lg">I am a quick and adaptable learner driven by a desire to build impactful things.
+                            My interests lie in full-stack development, AI/ML and Project Management. 
+                        </p>
                     </div>
                 </div>
                 <div className="flex flex-row justify-center w-full">
@@ -97,23 +97,20 @@ function Landing(){
                         <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 top-58 right-[-40px]"></div>
                         
                         <ProjectCard projectName="EvenShare" link="https://github.com/pratham-s2/EvenShare"
-                        projectDescription="A group-focused expense-splitting platform that lets users track, organize, and settle 
-                        shared costs with ease. Functionality includes real-time expense logging, group creation, and clear debt 
-                        breakdowns. Each user has an account to manage their activity and contributions across multiple groups." 
+                        projectDescription="A group-focused expense-splitting platform enabling users to track, organize, and settle shared costs, 
+                        with real-time expense logging, group creation, clear debt breakdowns, and individual account management." 
                         technologies={[
                             {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
                             {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
                             {text: "Javascript", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"}, 
                             {text: "Express.js", text_col: "bg-green-950/30", bg_col: "text-green-300"},
                             {text: "MySQL", text_col: "text-pink-300", bg_col: "bg-pink-950/30"},
-                            {text: "Websockets", bg_col: "bg-orange-950/30", text_col: "text-orange-300"},
+                            {text: "Auth (JWT)", bg_col: "bg-orange-950/30", text_col: "text-orange-300"},
 
                             ]}/>
                         <ProjectCard projectName="Recipify" link="https://github.com/pratham-s2/Recipify"
-                        projectDescription="A recipe discovery platform featuring 1,000+ recipes stored in a MySQL database, 
-                        enabling fast, filterable search based on dietary preferences and ingredients. It supports features 
-                        like saved collections and automated shopping list generation, helping users streamline meal prep and 
-                        grocery planning" 
+                        projectDescription="Recipe discovery platform with 50,000+ recipes, offering filterable search, 
+                        saved collections, and automated shopping lists to streamline meal planning." 
                         technologies={[
                             {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
                             {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
@@ -123,7 +120,7 @@ function Landing(){
                         ]}/>
                         
                         <ProjectCard projectName="Personal Website" link="https://github.com/pratham-s2/Personal-Website" 
-                        projectDescription="The website you're looking at right now!" 
+                        projectDescription="The website you're looking at right now." 
                         technologies={[
                             {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
                             {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
@@ -142,10 +139,11 @@ function Landing(){
                         
                         <div className="flex flex-col w-full p-5 bg-white dark:bg-black dark:hover:bg-[#141414] transition ease-in-out duration-300 rounded-lg relative border
                         hover:border-black border-black/30 dark:border-white dark:hover:border-white">
-                            <div className="text-lg font-medium">Software Developer</div>
+                            <div className="text-lg font-medium">Full-Stack Developer</div>
                             <div className="text-sm dark:text-white/80 text-black/80 mt-1 flex flex-row items-center justify-between pr-11 gap-3"><span>Industry 4.0 Design</span><span>Sept. 2024 - Present</span></div>
                             <div className="text-sm dark:text-white/80 text-black/80 mt-2 pr-8">
-                            Collaborated with a team to build and deploy the Industry 4.0 Design Team website, turning Figma designs into a fast, user-friendly interface.
+                            Developing an internal knowledge chatbot with Next.js/FastAPI/LangChain/Pinecone to centralize club information, and analytics dashboards to track engagement and guide event planning.
+                             Built the Industry 4.0 website with React/Tailwind reaching 500+ users.                            
                             </div>
                             <div className="mt-2 flex flex-wrap gap-2">
                                 <span className="px-2 py-1 rounded-md dark:bg-blue-950/30 dark:text-blue-300 bg-blue-100 text-blue-800 text-sm">React</span>
@@ -166,12 +164,16 @@ function Landing(){
                         hover:border-black border-black/30 dark:border-white dark:hover:border-white">
                             <div className="text-lg font-medium">Project Management Intern</div>
                             <div className="text-sm dark:text-white/80 text-black/80 mt-1 flex flex-row items-center justify-between pr-11 gap-3"><span>Hooper Welding</span><span>Apr. 2025 - Aug. 2025</span></div>
-                            <div className="text-sm dark:text-white/80 text-black/80 mt-2">Supporting mechanical design and project planning for custom manufacturing solutions.</div>
+                            <div className="text-sm dark:text-white/80 text-black/80 mt-2">Managed timelines/schedules for multiple six-figure projects, 
+                            migrated and cleaned a database of 1000+ weld procedure specifications using Pandas and VBA, directed procurement for components with total values of $200K+ while optimizing cost and maintaining timelines, and 
+                            engineered a precision leveling cover valued at $100k+ under rushed deadlines.  </div>
                             <div className="mt-2 flex flex-wrap gap-1">
-                                <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">Project Planning</span>
-                                <span className="px-2 py-1 rounded-md dark:bg-blue-950/30 dark:text-blue-300 bg-blue-100 text-blue-800 text-sm">Client Communication</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">Project Scheduling</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-blue-950/30 dark:text-blue-300 bg-blue-100 text-blue-800 text-sm">Supply Chain</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-purple-950/30 dark:text-purple-300 bg-purple-100 text-purple-800 text-sm">Client & Supplier Communication</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-orange-950/30 dark:text-orange-300 bg-orange-100 text-orange-800 text-sm">Cross-Functional Teams</span>
-                                <span className="px-2 py-1 rounded-md dark:bg-yellow-950/30 dark:text-yellow-300 bg-yellow-100 text-yellow-800 text-sm">AutoDesk Inventor</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-red-950/30 dark:text-red-300 bg-red-100 text-red-800 text-sm">Data Cleaning</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-yellow-950/30 dark:text-yellow-300 bg-yellow-100 text-yellow-800 text-sm">CAD</span>
                                                            
                             </div>
                         </div>
