@@ -150,7 +150,7 @@ function Landing(){
 
                         <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-10 top-40 left-[-40px]"></div>
                         <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-52 top-96 right-[-40px]"></div>
-                        
+                        <a href="http://evenshare.org" target="_blank">
                         <ProjectCard projectName="EvenShare" link="https://github.com/pratham-s2/EvenShare"
                         projectDescription="A group-focused expense-splitting platform enabling users to track, organize, and settle shared costs, 
                         with real-time expense logging, group creation, clear debt breakdowns, and individual account management." 
@@ -163,6 +163,7 @@ function Landing(){
                             {text: "Auth (JWT)", bg_col: "bg-orange-950/30", text_col: "text-orange-300"},
 
                             ]}/>
+                            </a>
                         <ProjectCard projectName="Recipify" link="https://github.com/pratham-s2/Recipify"
                         projectDescription="Recipe discovery platform with 50,000+ recipes, offering filterable search, 
                         saved collections, and automated shopping lists to streamline meal planning." 
