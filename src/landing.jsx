@@ -21,6 +21,7 @@ function Landing(){
             setDark(true);
         }
     }
+
     return(
         <div className="relative" id="hero">
 
@@ -68,9 +69,9 @@ function Landing(){
                                 <Linkedin className="w-5 h-5"/>LinkedIn
                             </button>
                         </a>
-                        <a>
+                        <a href="https://drive.google.com/file/d/13Vg9KtbXUQhhIAIdR6bmfPgOmJ5hcbkr/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <button className="flex flex-row gap-2 items-center hover:underline rounded-lg px-4 py-2 
-                                font-semibold transition duration-300 ease-in-out hover:translate-y-[-2px]" title="Will be added soon.">
+                                font-semibold transition duration-300 ease-in-out hover:translate-y-[-2px]">
                                 <FileText className="w-5 h-5"/>Resume
                             </button>
                         </a>
