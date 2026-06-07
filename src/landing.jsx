@@ -69,7 +69,7 @@ function Landing(){
                                 <Linkedin className="w-5 h-5"/>LinkedIn
                             </button>
                         </a>
-                        <a href="https://drive.google.com/file/d/13Vg9KtbXUQhhIAIdR6bmfPgOmJ5hcbkr/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1Y2P4JotT593LzNmMeX9zerXu9PNcAH_q/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <button className="flex flex-row gap-2 items-center hover:underline rounded-lg px-4 py-2 
                                 font-semibold transition duration-300 ease-in-out hover:translate-y-[-2px]">
                                 <FileText className="w-5 h-5"/>Resume
@@ -85,8 +85,9 @@ function Landing(){
                 </div>
 
                 <div className="pt-18 mt-26 2xl:mt-40 relative" id="info">
-                    <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-58 top-92 left-[-40px]"></div>
-                    <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-58 top-92 right-[-40px]"></div>
+                    <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-50 md:top-40 lg:top-45 top-70 right-[-40px]"></div>
+                    <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-95 md:top-85 lg:top-87 top-125 left-[-40px]"></div>
+                    <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-145 md:top-133 lg:top-133 top-190 right-[-40px]"></div>
                      
                      <div className="flex items-center gap-2 mb-6">
                         <div className="h-px grow dark:bg-white/15 bg-black/45"></div>
@@ -97,11 +98,26 @@ function Landing(){
                         
                         <div className="flex flex-col w-full p-5 bg-white dark:bg-black dark:hover:bg-[#141414] transition ease-in-out duration-300 rounded-lg relative border
                         hover:border-black border-black/30 dark:border-white dark:hover:border-white">
+                            <div className="text-lg font-medium">Software Engineering Intern</div>
+                            <div className="text-sm dark:text-white/80 text-black/80 mt-1 flex flex-row items-center justify-between pr-11 gap-3"><span>Ontario Power Generation</span><span>Jan. 2026 - Apr. 2026</span></div>
+                            <div className="text-sm dark:text-white/80 text-black/80 mt-2 pr-8">
+                            Built and optimized internal apps for 1000+ users.
+                            </div>
+                            <div className="mt-2 flex flex-wrap gap-2">
+                                <span className="px-2 py-1 rounded-md dark:bg-blue-950/30 dark:text-blue-300 bg-blue-100 text-blue-800 text-sm">React</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-red-950/30 dark:text-red-300 bg-red-100 text-red-800 text-sm">Angular</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">Java</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-yellow-950/30 dark:text-yellow-300 bg-yellow-100 text-yellow-800 text-sm">Performance Optimization</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-orange-950/30 dark:text-orange-300 bg-orange-100 text-orange-800 text-sm">Stakeholder Interviews</span>
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col w-full p-5 bg-white dark:bg-black dark:hover:bg-[#141414] transition ease-in-out duration-300 rounded-lg relative border
+                        hover:border-black border-black/30 dark:border-white dark:hover:border-white">
                             <div className="text-lg font-medium">Full-Stack Developer</div>
                             <div className="text-sm dark:text-white/80 text-black/80 mt-1 flex flex-row items-center justify-between pr-11 gap-3"><span>Industry 4.0 Design</span><span>Sept. 2024 - Present</span></div>
                             <div className="text-sm dark:text-white/80 text-black/80 mt-2 pr-8">
-                            Developing an internal knowledge chatbot with Next.js/FastAPI/LangChain/Pinecone to centralize club information, and analytics dashboards to track engagement and guide event planning.
-                             Built the Industry 4.0 website with React/Tailwind reaching 500+ users.                            
+                            RAG agent for internal drive and company website.
                             </div>
                             <div className="mt-2 flex flex-wrap gap-2">
                                 <span className="px-2 py-1 rounded-md dark:bg-blue-950/30 dark:text-blue-300 bg-blue-100 text-blue-800 text-sm">React</span>
@@ -117,20 +133,37 @@ function Landing(){
                             </a>
                         </div>
 
+                        <div className="flex flex-col w-full p-5 bg-white dark:bg-black dark:hover:bg-[#141414] transition ease-in-out duration-300 rounded-lg relative border
+                        hover:border-black border-black/30 dark:border-white dark:hover:border-white">
+                            <div className="text-lg font-medium">Director of Technology</div>
+                            <div className="text-sm dark:text-white/80 text-black/80 mt-1 flex flex-row items-center justify-between pr-11 gap-3"><span>CaseHacks</span><span>Oct. 2025 - Jan. 2026</span></div>
+                            <div className="text-sm dark:text-white/80 text-black/80 mt-2 pr-8">
+                            Built internal tooling to streamline competition logistics and operations.
+                            </div>
+                            <div className="mt-2 flex flex-wrap gap-2">
+                                <span className="px-2 py-1 rounded-md dark:bg-blue-950/30 dark:text-blue-300 bg-blue-100 text-blue-800 text-sm">TypeScript</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">Next.js</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-purple-950/30 dark:text-purple-300 bg-purple-100 text-purple-800 text-sm">Supabase</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-orange-950/30 dark:text-orange-300 bg-orange-100 text-orange-800 text-sm">APIs</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-red-950/30 dark:text-red-300 bg-red-100 text-red-800 text-sm">Automation</span>
+                            </div>
+                            <a href="https://www.casehacks.ca/" target="_blank" rel="noopener noreferrer">
+                                <ExternalLink className="w-9 h-9 absolute top-4 right-4 dark:hover:text-white p-2 rounded-lg dark:text-white/70 hover:text-black text-black/80" />
+                            </a>
+                        </div>
+
 
                         <div className="flex flex-col p-5 bg-white dark:bg-black dark:hover:bg-[#141414] transition ease-in-out duration-300 rounded-lg relative border
                         hover:border-black border-black/30 dark:border-white dark:hover:border-white">
                             <div className="text-lg font-medium">Project Management Intern</div>
                             <div className="text-sm dark:text-white/80 text-black/80 mt-1 flex flex-row items-center justify-between pr-11 gap-3"><span>Hooper Welding</span><span>Apr. 2025 - Aug. 2025</span></div>
-                            <div className="text-sm dark:text-white/80 text-black/80 mt-2">Managed timelines/schedules for multiple six-figure projects, 
-                            migrated and cleaned a database of 1000+ weld procedure specifications using Pandas and VBA, directed procurement for components with total values of $200K+, and 
-                            engineered a precision leveling cover valued at $100k+ under rushed deadlines.  </div>
+                            <div className="text-sm dark:text-white/80 text-black/80 mt-2">Project scheduling and data migration for manufacturing operations.</div>
                             <div className="mt-2 flex flex-wrap gap-1">
                                 <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">Project Scheduling</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-blue-950/30 dark:text-blue-300 bg-blue-100 text-blue-800 text-sm">Supply Chain</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-purple-950/30 dark:text-purple-300 bg-purple-100 text-purple-800 text-sm">Client & Supplier Communication</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-orange-950/30 dark:text-orange-300 bg-orange-100 text-orange-800 text-sm">Cross-Functional Teams</span>
-                                <span className="px-2 py-1 rounded-md dark:bg-red-950/30 dark:text-red-300 bg-red-100 text-red-800 text-sm">Data Cleaning</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-red-950/30 dark:text-red-300 bg-red-100 text-red-800 text-sm">Data Engineering</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-yellow-950/30 dark:text-yellow-300 bg-yellow-100 text-yellow-800 text-sm">CAD</span>
                                                            
                             </div>
@@ -149,8 +182,21 @@ function Landing(){
                     
                     <div className="flex flex-col gap-5 relative">
 
-                        <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-10 top-40 left-[-40px]"></div>
-                        <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-52 top-96 right-[-40px]"></div>
+                        <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-15 md:top-15 lg:top-10 top-50 left-[-40px]"></div>
+                        <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-70 md:top-65 lg:top-55 top-105 right-[-40px]"></div>
+                        <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-115 md:top-105 lg:top-95 top-165 left-[-40px]"></div>
+                        <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-165 md:top-150 lg:top-135 top-230 right-[-40px]"></div>
+                        <ProjectCard projectName="AST-Aware Codebase Search Engine" link="https://github.com/pratham-s2"
+                        projectDescription="A semantic codebase search engine that parses repositories into function- and class-level chunks with Tree-sitter, then combines Voyage AI embeddings, Pinecone vector search, Cohere reranking, and LLM-generated explanations for natural language code queries." 
+                        technologies={[
+                            {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
+                            {text: "FastAPI", bg_col: "bg-green-950/30", text_col: "text-green-300"},
+                            {text: "Pinecone", bg_col: "bg-pink-950/30", text_col: "text-pink-300"},
+                            {text: "Tree-sitter", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"},
+                            {text: "Voyage AI", bg_col: "bg-purple-950/30", text_col: "text-purple-300"},
+                            {text: "Cohere", bg_col: "bg-orange-950/30", text_col: "text-orange-300"},
+                        ]}/>
+
                         <a href="http://evenshare.org" target="_blank">
                         <ProjectCard projectName="EvenShare" link="https://github.com/pratham-s2/EvenShare"
                         projectDescription="A group-focused expense-splitting platform enabling users to track, organize, and settle shared costs, 
@@ -174,6 +220,16 @@ function Landing(){
                             {text: "Javascript", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"},
                             {text: "Express.js", text_col: "bg-green-950/30", bg_col: "text-green-300"},
                             {text: "MySQL", text_col: "text-pink-300", bg_col: "bg-pink-950/30"}
+                        ]}/>
+
+                        <ProjectCard projectName="AI Resume Optimizer" link="https://github.com/pratham-s2"
+                        projectDescription="A resume analysis tool that compares resumes against job postings with NLP, embeds resume bullets and job descriptions for Pinecone similarity scoring, and generates tailored bullet rewrites with the OpenAI API." 
+                        technologies={[
+                            {text: "Next.js", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
+                            {text: "Flask", bg_col: "bg-green-950/30", text_col: "text-green-300"},
+                            {text: "Pinecone", bg_col: "bg-pink-950/30", text_col: "text-pink-300"},
+                            {text: "OpenAI API", bg_col: "bg-orange-950/30", text_col: "text-orange-300"},
+                            {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
                         ]}/>
                         
                         <ProjectCard projectName="Personal Website" link="https://github.com/pratham-s2/Personal-Website" 
