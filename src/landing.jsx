@@ -85,9 +85,9 @@ function Landing(){
                 </div>
 
                 <div className="pt-18 mt-26 2xl:mt-40 relative" id="info">
-                    <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-50 md:top-40 lg:top-45 top-70 right-[-40px]"></div>
-                    <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-95 md:top-85 lg:top-87 top-125 left-[-40px]"></div>
-                    <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-145 md:top-133 lg:top-133 top-190 right-[-40px]"></div>
+                    <div className="hidden sm:block w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-50 md:top-40 lg:top-45 top-70 right-[-40px]"></div>
+                    <div className="hidden sm:block w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-95 md:top-85 lg:top-87 top-125 left-[-40px]"></div>
+                    <div className="hidden sm:block w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-145 md:top-133 lg:top-133 top-190 right-[-40px]"></div>
                      
                      <div className="flex items-center gap-2 mb-6">
                         <div className="h-px grow dark:bg-white/15 bg-black/45"></div>
@@ -186,10 +186,10 @@ function Landing(){
                     
                     <div className="flex flex-col gap-5 relative">
 
-                        <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-15 md:top-15 lg:top-10 top-50 left-[-40px]"></div>
-                        <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-70 md:top-65 lg:top-55 top-105 right-[-40px]"></div>
-                        <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-115 md:top-105 lg:top-95 top-165 left-[-40px]"></div>
-                        <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-165 md:top-150 lg:top-135 top-230 right-[-40px]"></div>
+                        <div className="hidden sm:block w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-25 md:top-15 lg:top-10 top-50 left-[-40px]"></div>
+                        <div className="hidden sm:block w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-80 md:top-65 lg:top-55 top-105 right-[-40px]"></div>
+                        <div className="hidden sm:block w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-130 md:top-105 lg:top-95 top-165 left-[-40px]"></div>
+                        <div className="hidden sm:block w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-175 md:top-150 lg:top-135 top-220 right-[-40px]"></div>
                         
                         <ProjectCard projectName="AST-Aware Codebase Search Engine" link="https://github.com/pratham-s2/Codebase-Intelligence-Tool"
                         projectDescription="A semantic codebase search engine that parses repositories into function- and class-level chunks with Tree-sitter, then combines Voyage AI embeddings, Pinecone vector search, Cohere reranking, and LLM-generated explanations for natural language code queries." 
