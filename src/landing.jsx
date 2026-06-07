@@ -43,7 +43,7 @@ function Landing(){
                         <p className="text-3xl mb-1">I'm <span className="font-semibold text-4xl text-pink-500">Pratham</span>.</p>
                         <p className="text-xl">Engineering @ UWaterloo</p>
                         <p className="text-black/85 dark:text-white/85 py-1 text-lg">I am a quick and adaptable learner driven by a desire to build impactful things.
-                            My interests lie in full-stack development, AI/ML and Project Management. 
+                            My interests lie in full-stack development and AI/ML. 
                         </p>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ function Landing(){
                             <div className="text-lg font-medium">Software Engineering Intern</div>
                             <div className="text-sm dark:text-white/80 text-black/80 mt-1 flex flex-row items-center justify-between pr-11 gap-3"><span>Ontario Power Generation</span><span>Jan. 2026 - Apr. 2026</span></div>
                             <div className="text-sm dark:text-white/80 text-black/80 mt-2 pr-8">
-                            Built and optimized internal apps for 1000+ users.
+                            Built, optimized and modernized internal apps for 1000+ users.
                             </div>
                             <div className="mt-2 flex flex-wrap gap-2">
                                 <span className="px-2 py-1 rounded-md dark:bg-blue-950/30 dark:text-blue-300 bg-blue-100 text-blue-800 text-sm">React</span>
@@ -109,8 +109,10 @@ function Landing(){
                                 <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">Java</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-purple-950/30 dark:text-purple-300 bg-purple-100 text-purple-800 text-sm">C#</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-pink-950/30 dark:text-pink-300 bg-pink-100 text-pink-800 text-sm">Azure</span>
-                                <span className="px-2 py-1 rounded-md dark:bg-yellow-950/30 dark:text-yellow-300 bg-yellow-100 text-yellow-800 text-sm">Performance Optimization</span>
                             </div>
+                            <a href="https://www.opg.com/" target="_blank" rel="noopener noreferrer">
+                                <ExternalLink className="w-9 h-9 absolute top-4 right-4 dark:hover:text-white p-2 rounded-lg dark:text-white/70 hover:text-black text-black/80" />
+                            </a>
                         </div>
 
                         <div className="flex flex-col w-full p-5 bg-white dark:bg-black dark:hover:bg-[#141414] transition ease-in-out duration-300 rounded-lg relative border
@@ -126,7 +128,6 @@ function Landing(){
                                 <span className="px-2 py-1 rounded-md dark:bg-pink-950/30 dark:text-pink-300 bg-pink-100 text-pink-800 text-sm">Pinecone</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">LangChain</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-purple-950/30 dark:text-purple-300 bg-purple-100 text-purple-800 text-sm">FastAPI</span>
-                                <span className="px-2 py-1 rounded-md dark:bg-orange-950/30 dark:text-orange-300 bg-orange-100 text-orange-800 text-sm">UI/UX</span>
                             </div>
 
                             <a href="https://uwindustry4.tech" target="_blank" rel="noopener noreferrer">
@@ -145,7 +146,6 @@ function Landing(){
                                 <span className="px-2 py-1 rounded-md dark:bg-blue-950/30 dark:text-blue-300 bg-blue-100 text-blue-800 text-sm">TypeScript</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">Next.js</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-purple-950/30 dark:text-purple-300 bg-purple-100 text-purple-800 text-sm">Supabase</span>
-                                <span className="px-2 py-1 rounded-md dark:bg-orange-950/30 dark:text-orange-300 bg-orange-100 text-orange-800 text-sm">APIs</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-red-950/30 dark:text-red-300 bg-red-100 text-red-800 text-sm">Automation</span>
                             </div>
                             <a href="https://www.casehacks.ca/" target="_blank" rel="noopener noreferrer">
@@ -168,6 +168,9 @@ function Landing(){
                                 <span className="px-2 py-1 rounded-md dark:bg-yellow-950/30 dark:text-yellow-300 bg-yellow-100 text-yellow-800 text-sm">CAD</span>
                                                            
                             </div>
+                            <a href="https://www.hooperwelding.com/" target="_blank" rel="noopener noreferrer">
+                                <ExternalLink className="w-9 h-9 absolute top-4 right-4 dark:hover:text-white p-2 rounded-lg dark:text-white/70 hover:text-black text-black/80" />
+                            </a>
                         </div>
 
                     </div>
