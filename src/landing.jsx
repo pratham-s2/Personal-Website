@@ -107,8 +107,9 @@ function Landing(){
                                 <span className="px-2 py-1 rounded-md dark:bg-blue-950/30 dark:text-blue-300 bg-blue-100 text-blue-800 text-sm">React</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-red-950/30 dark:text-red-300 bg-red-100 text-red-800 text-sm">Angular</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">Java</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-purple-950/30 dark:text-purple-300 bg-purple-100 text-purple-800 text-sm">C#</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-pink-950/30 dark:text-pink-300 bg-pink-100 text-pink-800 text-sm">Azure</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-yellow-950/30 dark:text-yellow-300 bg-yellow-100 text-yellow-800 text-sm">Performance Optimization</span>
-                                <span className="px-2 py-1 rounded-md dark:bg-orange-950/30 dark:text-orange-300 bg-orange-100 text-orange-800 text-sm">Stakeholder Interviews</span>
                             </div>
                         </div>
 
@@ -122,9 +123,9 @@ function Landing(){
                             <div className="mt-2 flex flex-wrap gap-2">
                                 <span className="px-2 py-1 rounded-md dark:bg-blue-950/30 dark:text-blue-300 bg-blue-100 text-blue-800 text-sm">React</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-red-950/30 dark:text-red-300 bg-red-100 text-red-800 text-sm">Tailwind CSS</span>
-                                <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">Jira</span>
-                                <span className="px-2 py-1 rounded-md dark:bg-yellow-950/30 dark:text-yellow-300 bg-yellow-100 text-yellow-800 text-sm">Agile</span>
-                                <span className="px-2 py-1 rounded-md dark:bg-pink-950/30 dark:text-pink-300 bg-pink-100 text-pink-800 text-sm">Git</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-pink-950/30 dark:text-pink-300 bg-pink-100 text-pink-800 text-sm">Pinecone</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">LangChain</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-purple-950/30 dark:text-purple-300 bg-purple-100 text-purple-800 text-sm">FastAPI</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-orange-950/30 dark:text-orange-300 bg-orange-100 text-orange-800 text-sm">UI/UX</span>
                             </div>
 
@@ -159,7 +160,7 @@ function Landing(){
                             <div className="text-sm dark:text-white/80 text-black/80 mt-1 flex flex-row items-center justify-between pr-11 gap-3"><span>Hooper Welding</span><span>Apr. 2025 - Aug. 2025</span></div>
                             <div className="text-sm dark:text-white/80 text-black/80 mt-2">Project scheduling and data migration for manufacturing operations.</div>
                             <div className="mt-2 flex flex-wrap gap-1">
-                                <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">Project Scheduling</span>
+                                <span className="px-2 py-1 rounded-md dark:bg-green-950/30 dark:text-green-300 bg-green-100 text-green-800 text-sm">Timelines</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-blue-950/30 dark:text-blue-300 bg-blue-100 text-blue-800 text-sm">Supply Chain</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-purple-950/30 dark:text-purple-300 bg-purple-100 text-purple-800 text-sm">Client & Supplier Communication</span>
                                 <span className="px-2 py-1 rounded-md dark:bg-orange-950/30 dark:text-orange-300 bg-orange-100 text-orange-800 text-sm">Cross-Functional Teams</span>
@@ -186,43 +187,33 @@ function Landing(){
                         <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-70 md:top-65 lg:top-55 top-105 right-[-40px]"></div>
                         <div className="w-96 h-60 border-l-6 border-pink-500 rounded-full absolute z-0 sm:top-115 md:top-105 lg:top-95 top-165 left-[-40px]"></div>
                         <div className="w-96 h-60 border-r-6 border-pink-500 rounded-full absolute z-0 sm:top-165 md:top-150 lg:top-135 top-230 right-[-40px]"></div>
-                        <ProjectCard projectName="AST-Aware Codebase Search Engine" link="https://github.com/pratham-s2"
+                        
+                        <ProjectCard projectName="AST-Aware Codebase Search Engine" link="https://github.com/pratham-s2/Codebase-Intelligence-Tool"
                         projectDescription="A semantic codebase search engine that parses repositories into function- and class-level chunks with Tree-sitter, then combines Voyage AI embeddings, Pinecone vector search, Cohere reranking, and LLM-generated explanations for natural language code queries." 
                         technologies={[
                             {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
                             {text: "FastAPI", bg_col: "bg-green-950/30", text_col: "text-green-300"},
+                            {text: "Python", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"},
                             {text: "Pinecone", bg_col: "bg-pink-950/30", text_col: "text-pink-300"},
-                            {text: "Tree-sitter", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"},
+                            {text: "Tree-sitter", bg_col: "bg-red-950/30", text_col: "text-red-300"},
                             {text: "Voyage AI", bg_col: "bg-purple-950/30", text_col: "text-purple-300"},
                             {text: "Cohere", bg_col: "bg-orange-950/30", text_col: "text-orange-300"},
                         ]}/>
 
-                        <a href="http://evenshare.org" target="_blank">
                         <ProjectCard projectName="EvenShare" link="https://github.com/pratham-s2/EvenShare"
                         projectDescription="A group-focused expense-splitting platform enabling users to track, organize, and settle shared costs, 
                         with real-time expense logging, group creation, clear debt breakdowns, and individual account management." 
                         technologies={[
                             {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
                             {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
-                            {text: "Javascript", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"}, 
                             {text: "Express.js", text_col: "bg-green-950/30", bg_col: "text-green-300"},
                             {text: "MySQL", text_col: "text-pink-300", bg_col: "bg-pink-950/30"},
-                            {text: "Auth (JWT)", bg_col: "bg-orange-950/30", text_col: "text-orange-300"},
+                            {text: "Docker", bg_col: "bg-purple-950/30", text_col: "text-purple-300"},
+                            {text: "AWS EC2", bg_col: "bg-orange-950/30", text_col: "text-orange-300"},
 
                             ]}/>
-                            </a>
-                        <ProjectCard projectName="Recipify" link="https://github.com/pratham-s2/Recipify"
-                        projectDescription="Recipe discovery platform with 50,000+ recipes, offering filterable search, 
-                        saved collections, and automated shopping lists to streamline meal planning." 
-                        technologies={[
-                            {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
-                            {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
-                            {text: "Javascript", bg_col: "bg-yellow-950/30", text_col: "text-yellow-300"},
-                            {text: "Express.js", text_col: "bg-green-950/30", bg_col: "text-green-300"},
-                            {text: "MySQL", text_col: "text-pink-300", bg_col: "bg-pink-950/30"}
-                        ]}/>
 
-                        <ProjectCard projectName="AI Resume Optimizer" link="https://github.com/pratham-s2"
+                            <ProjectCard projectName="AI Resume Optimizer" link="https://github.com/pratham-s2"
                         projectDescription="A resume analysis tool that compares resumes against job postings with NLP, embeds resume bullets and job descriptions for Pinecone similarity scoring, and generates tailored bullet rewrites with the OpenAI API." 
                         technologies={[
                             {text: "Next.js", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
@@ -231,6 +222,18 @@ function Landing(){
                             {text: "OpenAI API", bg_col: "bg-orange-950/30", text_col: "text-orange-300"},
                             {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
                         ]}/>
+
+                        <ProjectCard projectName="Recipify" link="https://github.com/pratham-s2/Recipify"
+                        projectDescription="Recipe discovery platform with 50,000+ recipes, offering filterable search, 
+                        saved collections, and automated shopping lists to streamline meal planning." 
+                        technologies={[
+                            {text: "React", bg_col: "bg-blue-950/30", text_col: "text-blue-300"},
+                            {text: "Tailwind CSS", bg_col: "bg-red-950/30", text_col: "text-red-300"},
+                            {text: "Express.js", text_col: "bg-green-950/30", bg_col: "text-green-300"},
+                            {text: "MySQL", text_col: "text-pink-300", bg_col: "bg-pink-950/30"}
+                        ]}/>
+
+                        
                         
                         <ProjectCard projectName="Personal Website" link="https://github.com/pratham-s2/Personal-Website" 
                         projectDescription="The website you're looking at right now." 
